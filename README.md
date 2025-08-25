@@ -58,10 +58,11 @@ public class Employee {
 Controls the flow of the application based on login success.
 
 if(encapsulation.login(userInput, passwordInput)) {
-    System.out.println("✅ Login Successful");
+
+    System.out.println(" Login Successful");
 
 } else {
-    System.out.println("❌ Login Failed");
+    System.out.println(" Login Failed");
 }
 -----
 🚀 How to Run
@@ -86,7 +87,7 @@ Enter username and password to login and follow instructions for CRUD operations
 💡 Example
 Enter Username: tharun
 Enter Password: 1234
-✅ Login Successful!
+Login Successful!
 Select Action:
 1. ➕ Create Employee
 2. 👀 View Employee
