@@ -1,4 +1,4 @@
-🏢 Employee Management System
+1 🏢 Employee Management System
 
 A simple Employee Management System demonstrating Object-Oriented Programming (OOP) concepts in Java, including Encapsulation, Manager-Controller Design, and CRUD operations.
 
@@ -33,7 +33,8 @@ private String username = "tharun";
 private String password = "1234";
 
 public boolean login(String user, String pass) {
-    return username.equals(user) && password.equals(pass);
+    return username.equals(user)
+    && password.equals(pass);
 }
 
 Manager class → Controls operations based on user instructions.
@@ -50,7 +51,6 @@ public class Employee {
     private String name;
     private String department;
 
-    // CRUD methods: create, read, update, delete
 }
 -----
 3. 🧭 Manager
@@ -59,7 +59,7 @@ Controls the flow of the application based on login success.
 
 if(encapsulation.login(userInput, passwordInput)) {
     System.out.println("✅ Login Successful");
-    // Perform CRUD operations
+
 } else {
     System.out.println("❌ Login Failed");
 }
